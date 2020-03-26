@@ -4,6 +4,9 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 0 $spacer 0 $spacer;
+  h1 {
+    color: $color-primary;
+  }
   @include menu($color-body, $spacer);
   .menu .menu__item .menu__link {
     text-transform: uppercase;
