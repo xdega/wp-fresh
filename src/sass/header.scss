@@ -4,22 +4,9 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 0 $spacer 0 $spacer;
-  nav.menu {
-    ul {
-      display: flex;
-      li {
-        display: flex;
-        margin-right: $spacer;
-        a {
-          text-decoration: none;
-          text-transform: uppercase;
-          font-weight: bold;
-          color: $color-body;
-        }
-      }
-      li:last-child {
-        margin-right: 0px;
-      }
-    }
+  @include menu($color-body, $spacer);
+  .menu .menu__item .menu__link {
+    text-transform: uppercase;
+    font-weight: bold;
   }
 }

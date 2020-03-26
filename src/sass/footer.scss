@@ -1,0 +1,4 @@
+footer {
+  padding: 0 $spacer 0 $spacer;
+  @include menu($color-body, $spacer);
+}

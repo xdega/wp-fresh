@@ -1,0 +1,18 @@
+@mixin menu($color, $space) {
+  nav.menu {
+    ul {
+      display: flex;
+      .menu__item {
+        display: flex;
+        margin-right: $space;
+        .menu__link {
+          text-decoration: none;
+          color: $color;
+        }
+      }
+      .menu__item:last-child {
+        margin-right: 0px;
+      }
+    }
+  }
+}
