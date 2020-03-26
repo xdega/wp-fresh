@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  background-color: #111;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px 0 20px;
+  nav.menu {
+    ul {
+      display: flex;
+      li {
+        display: flex;
+        margin-right: 20px;
+        a {
+          text-decoration: none;
+          text-transform: uppercase;
+          font-weight: bold;
+          color: #ccc;
+        }
+      }
+      li:last-child {
+        margin-right: 0px;
+      }
+    }
+  }
+}
