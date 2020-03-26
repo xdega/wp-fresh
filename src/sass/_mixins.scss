@@ -2,6 +2,7 @@
   nav.menu {
     ul {
       display: flex;
+      padding-left: 0px;
       .menu__item {
         display: flex;
         margin-right: $space;
