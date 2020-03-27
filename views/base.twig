@@ -19,7 +19,8 @@
       <h1>
         <a href="/">{{ site.name }}</a>
       </h1>
-      {% include "menu.twig" with {'items': menu_header.get_items} %}
+      <div id="menuToggle" class="menu--collapse">MENU</div>
+      {% include "menu.twig" with {'items': menu_header.get_items, 'id': 'menuMain'} %}
     </header>
     <div class="wrapper">
       {% block content %}
