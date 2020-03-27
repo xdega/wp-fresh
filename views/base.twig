@@ -16,8 +16,10 @@
   </head>
   <body>
     <header>
-        <h1>{{ site.name }}</h1>
-        {% include "menu.twig" with {'items': menu_header.get_items} %}
+      <h1>
+        <a href="/">{{ site.name }}</a>
+      </h1>
+      {% include "menu.twig" with {'items': menu_header.get_items} %}
     </header>
     <div class="wrapper">
       {% block content %}
