@@ -1,7 +1,7 @@
 footer {
-  padding: $spacer;
+  padding: $spacer-large;
   display: flex;
   flex-direction: column;
   align-items: center;
-  @include menu($color-body, $spacer);
+  @include menu($color-body, $spacer-large);
 }

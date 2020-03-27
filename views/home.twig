@@ -17,7 +17,10 @@
         </aside>
       </div>
       <div class="post__content">
-        {{ post.post_content }}
+        {{ post.post_excerpt }}
+      </div>
+      <div class="post__link">
+        <a href="{{ post.link }}">...</a>
       </div>
     </article>
   {% endfor %}

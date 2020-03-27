@@ -1,40 +1,44 @@
 .post {
-  //min-height: 100vh;
+  background-color: $color-background-dark;
+  padding: $spacer-small;
+  margin-top: $spacer-small;
+  a {
+    color: $color-primary;
+  }
+  img {
+    border-radius: 3px;
+    max-width: 100%;
+  }
+  hr {
+    border: 2px solid $color-primary;
+  }
   &__info {
-    margin-top: 10px;
     border-radius: 3px 3px 0 0;
-    background-color: $color-background-dark;
-    padding: 7px;
-    margin-bottom: 0px;
     display: flex;
     flex-direction: column;
     &__author {
-      margin-right: 7px;
+      margin-right: $spacer-small;
       &:after {
         content: "|";
       }
     }
     h2 {
       color: $color-primary;
+      padding: $spacer-small;
+      margin-bottom: 0;
+      padding-bottom: 0;
     }
     aside {
       display: flex;
+      padding: $spacer-small;
+      margin-bottom: $spacer-small;
     }
   }
-
   &__content {
-    a {
-      color: $color-primary;
-    }
-    img {
-      border-radius: 3px;
-      max-width: 100%;
-    }
-    hr {
-      border: 2px solid $color-primary;
-    }
-    background-color: $color-background-dark;
+    padding: inherit;
     border-radius: 0 0 3px 3px;
-    padding: 7px;
+  }
+  &__link {
+    padding: inherit;
   }
 }

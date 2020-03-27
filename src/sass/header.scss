@@ -4,11 +4,11 @@ header {
   background-color: $color-background-dark;
   align-items: center;
   justify-content: space-between;
-  padding: 0 $spacer 0 $spacer;
+  padding: 0 $spacer-large 0 $spacer-large;
   h1 {
     color: $color-primary;
   }
-  @include menu($color-body, $spacer);
+  @include menu($color-body, $spacer-large);
   .menu .menu__item .menu__link {
     text-transform: uppercase;
     font-weight: bold;
