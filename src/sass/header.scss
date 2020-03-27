@@ -9,7 +9,7 @@ header {
     color: $color-primary;
     text-decoration: none;
   }
-  @include menu($color-body, $spacer-large);
+  @include menu($color-body, $color-primary, $spacer-large);
   .menu .menu__item .menu__link {
     text-transform: uppercase;
     font-weight: bold;

@@ -1,4 +1,4 @@
-@mixin menu($color, $space) {
+@mixin menu($color, $color-hover, $space) {
   nav.menu {
     ul {
       display: flex;
@@ -9,6 +9,11 @@
         .menu__link {
           text-decoration: none;
           color: $color;
+          transition: 1s;
+          &:hover {
+            color: $color-hover;
+            transition: 1s;
+          }
         }
       }
       .menu__item:last-child {
