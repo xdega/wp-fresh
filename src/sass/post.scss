@@ -1,11 +1,25 @@
 .post {
-  min-height: 100vh;
-  &__title {
+  //min-height: 100vh;
+  &__info {
+    margin-top: 10px;
     border-radius: 3px 3px 0 0;
     background-color: $color-background-dark;
-    color: $color-primary;
     padding: 7px;
     margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    &__author {
+      margin-right: 7px;
+      &:after {
+        content: "|";
+      }
+    }
+    h2 {
+      color: $color-primary;
+    }
+    aside {
+      display: flex;
+    }
   }
 
   &__content {
