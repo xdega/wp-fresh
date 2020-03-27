@@ -1,4 +1,6 @@
 .wrapper {
+  flex: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
   padding: 0 $spacer 0 $spacer;
-  min-height: 900px;
 }

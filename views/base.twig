@@ -20,13 +20,13 @@
         {% include "menu.twig" with {'items': menu_header.get_items} %}
     </header>
     <div class="wrapper">
-        {% block content %}
-            Nothing to see here...
-        {% endblock %}
+      {% block content %}
+        Nothing to see here...
+      {% endblock %}
+      <footer>
+        {% include "menu.twig" with {'items': menu_footer.get_items} %}
+        {{ site.name }}, 2020
+      </footer>
     </div>
   </body>
-  <footer>
-    {% include "menu.twig" with {'items': menu_footer.get_items} %}
-    {{ site.name }}, 2020
-  </footer>
 </html>
