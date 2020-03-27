@@ -1,0 +1,26 @@
+article .post {
+  &__title {
+    border-radius: 3px 3px 0 0;
+    background-color: $color-background-dark;
+    //border-left: 4px solid $color-primary;
+    color: $color-primary;
+    padding: 7px;
+    margin-bottom: 0px;
+  }
+
+  &__content {
+    a {
+      color: $color-primary;
+    }
+    img {
+      border-radius: 3px;
+      max-width: 100%;
+    }
+    hr {
+      border: 2px solid $color-primary;
+    }
+    background-color: $color-background-dark;
+    border-radius: 0 0 3px 3px;
+    padding: 7px;
+  }
+}
