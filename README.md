@@ -3,6 +3,14 @@
 This is a simple starting point for modern Wordpress theme development. 
 It has support for cleaner templating via Twig (Timber plugin), and support for a modren CSS/JS workflow.
 
+## Live Demo
+
+https://fresh.webfresh.dev/
+
+Bear in mind this is not intended to be a fully-featured theme. It is designed with flexibility in mind, with as little "bloat" as possible. The spacing and colors are all `_variables` in SASS, and the initial set of templates/views is very basic. 
+
+For the sake of argument, this is just using a default color scheme similar to my portfolio website at: https://webfresh.dev 
+
 ## Required Wordpress Plugins
 
 - Timber
